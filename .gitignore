@@ -439,4 +439,7 @@ spark-warehouse/
 # data
 data/
 model_creation/untitled_project/
-model_creation/outputs/
+#dont track gridsearch models
+model_creation/outputs/*/*search.pkl
+#dont track random forest models
+model_creation/outputs/*/*forest*.pkl
